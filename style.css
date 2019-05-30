@@ -1,0 +1,104 @@
+body{
+  background-image: url("immagini/legno.jpg");
+  background-size: cover;
+  margin:0 auto;
+  padding:0;
+}
+
+.centratura{
+  width: 55%;
+  margin:auto;
+}
+
+.first_box{
+  border: 4px solid white;
+  width: 98.7%;
+  height: 150px;
+  background-image: url("immagini/bosco.jpg");
+  position: relative;
+  margin-top: 6px;
+}
+
+h1{
+  font-family: helvetica;
+  font-size: 50px;
+  color: white;
+  border: 2px solid white;
+  padding: 3px;
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.second_box{
+  width: 100%;
+  height: 50px;
+  background-color: gray;
+  opacity: 0.99;
+}
+
+.left_box{
+  background-color: white;
+  border-radius: 8px;
+  width: 18%;
+  height: 400px;
+  margin-top: 8px;
+  margin-right: 5%;
+  float: left;
+}
+
+.central_box{
+  background-color: white;
+  border-radius: 8px;
+  width: 54%;
+  /*height: 200px;*/
+  margin-top: 8px;
+  margin-right: 5%;
+  float: left;
+}
+
+.right_box{
+  background-color: white;
+  border-radius: 8px;
+  width: 18%;
+  height: 220px;
+  margin-top: 8px;
+  float:left;
+}
+
+.second_right{
+  background-color: white;
+  border-radius: 8px;
+  width: 18%;
+  height: 220px;
+  margin-top: 33px;
+  float: right;
+}
+
+.third_right{
+  background-color: white;
+  border-radius: 8px;
+  width: 18%;
+  height: 220px;
+  margin-top: 33px;
+  display: block;
+  clear: right;
+  float: right;
+}
+
+.last_box{
+  background-color: white;
+  width: 100%;
+  height: 120px;
+  margin-top: 33px;
+
+}
+
+
+
+main::after{
+  content:"";
+  display: table;
+  clear: both;
+}
